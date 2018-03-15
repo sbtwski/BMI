@@ -48,4 +48,6 @@
     <string name="saved_height">height_save</string>
     <string name="saved_unit_system">unit_save</string>
 
+    <string name="git">git_test</string>
+
 </resources>
