@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e806f</color>
+    <color name="colorPrimaryDark">#0f5144</color>
+    <color name="colorAccent">#eacd04</color>
+    <color name="colorAccentDark">#c4ac03</color>
+
+    <color name="very_severely_underweight">#1333ec</color>
+    <color name="severely_underweight">#5971ff</color>
+    <color name="underweight">#6dc7ff</color>
+    <color name="normal">#0cb60c</color>
+    <color name="overweight">#dfc100</color>
+    <color name="moderately_obese">#c48404</color>
+    <color name="severely_obese">#bc4e05</color>
+    <color name="very_severely_obese">#bc0b05</color>
+
+    <color name="menu_items_text">#000000</color>
+    <color name="menu_icon">#ffffff</color>
+
+</resources>

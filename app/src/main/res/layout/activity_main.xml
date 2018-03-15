@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ToolbarStyle" />
+
+        <TextView
+            android:layout_marginTop="@dimen/default_margin"
+            android:id="@+id/weight_text"
+            android:layout_width="@dimen/default_width"
+            android:layout_height="@dimen/default_height"
+            android:text="@string/weight"
+            android:textSize="@dimen/medium_font"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:id="@+id/weight_input"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="@dimen/input_height"
+            android:inputType="numberDecimal"
+            android:hint="@string/hint_kilograms"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/default_margin"
+            android:id="@+id/height_text"
+            android:layout_width="@dimen/default_width"
+            android:layout_height="@dimen/default_height"
+            android:text="@string/height"
+            android:textSize="@dimen/medium_font"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:id="@+id/height_input"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="@dimen/input_height"
+            android:inputType="numberDecimal"
+            android:hint="@string/hint_meters"/>
+
+        <Button
+            android:layout_marginTop="@dimen/default_margin"
+            android:id="@+id/calculate_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/calculate"
+            android:textSize="@dimen/big_font"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/units_changing_button"
+            android:layout_width="@dimen/change_button_width"
+            android:layout_height="@dimen/change_button_height"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_marginTop="@dimen/extended_margin"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:background="@drawable/round_button"
+            android:text="@string/imperial"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+</ScrollView>

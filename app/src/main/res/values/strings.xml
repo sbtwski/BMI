@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="weight">WEIGHT</string>
+    <string name="height">HEIGHT</string>
+    <string name="calculate">CALCULATE</string>
+
+    <string name="weight_input_empty">Weight not specified!</string>
+    <string name="weight_input_low">Weight too low!</string>
+
+    <string name="height_input_empty">Height not specified!</string>
+    <string name="height_input_low">Height too low!</string>
+    <string name="height_input_big">Height too big!</string>
+
+    <string name="data_valid">Validated</string>
+    <string name="data_not_valid">Not validated</string>
+    <string name="both_inputs_empty">No specified values</string>
+
+    <string name="very_severely_underweight">VERY SEVERELY UNDERWEIGHT</string>
+    <string name="severely_underweight">SEVERELY UNDERWEIGHT</string>
+    <string name="underweight">UNDERWEIGHT</string>
+    <string name="normal">NORMAL</string>
+    <string name="overweight">OVERWEIGHT</string>
+    <string name="moderately_obese">MODERATELY OBESE</string>
+    <string name="severely_obese">SEVERELY OBESE</string>
+    <string name="very_severely_obese">VERY SEVERELY OBESE</string>
+
+    <string name="hint_kilograms">in kilograms</string>
+    <string name="hint_meters">in meters</string>
+    <string name="hint_pounds">in pounds</string>
+    <string name="hint_inches">in inches</string>
+
+    <string name="imperial">imperial</string>
+    <string name="metric">metric</string>
+
+    <string name="action_about_author">About author</string>
+    <string name="author_name">Wojciech Sabatowski</string>
+    <string name="bmi_result">BMI</string>
+    <string name="action_save">save</string>
+    <string name="action_back">Go back</string>
+
+    <string name="no_weight_save">Only height saved</string>
+    <string name="no_height_save">Only weight saved</string>
+    <string name="no_values_to_save">Only unit system saved</string>
+    <string name="successful_save">Saved successfully</string>
+
+    <string name="saved_data">user_save</string>
+    <string name="saved_weight">weight_save</string>
+    <string name="saved_height">height_save</string>
+    <string name="saved_unit_system">unit_save</string>
+
+</resources>
